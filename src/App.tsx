@@ -7,8 +7,13 @@ import Products from "./components/Products";
 import ProductCard from "./components/productCard"
 import Carts from "./components/carts"
 
+
+
 function App() {
+ 
+ 
   return (
+    <div>
     <Router>
       <Navbar/>
       <div className="p-6 bg-purple-50 min-h-screen">
@@ -20,6 +25,17 @@ function App() {
         </Routes>
       </div>
     </Router>
+
+    
+
+
+   
+
+
+
+
+    
+    </div>
   );
 }
 

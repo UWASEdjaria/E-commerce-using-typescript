@@ -1,19 +1,19 @@
-
-
-// Enum for category types
-export enum Category {
-  SMARTPHONES = "smartphones",
-  LAPTOPS = "laptops",
-  FRAGRANCES = "fragrances",
-  SKINCARE = "skincare",
+export enum Category{
+    
+       BEAUTY ="Beauty",
+       FRAGRANCES ="fragrances",
+       FURNITURES ="furnitures",
+       GROCERIES ="groceries"
 }
-export interface Product {
-  id: number;
-  title: string;
-  description?: string; // optional
-  price: number;
-  category: Category;
-  thumbnail: string;
-  rating: string;
+
+export interface Product{
+    id:number,
+    title:string,
+    category:Category,
+    price:number,
+    discountPercentage:number,
+    brand:string
+
 }
-export type FetchStatus= "idle" | "loading" | "success" | "error";
+
+export type FetchingStatus="Idle"|"Loading"|"Success"|"Error"
