@@ -1,8 +1,8 @@
 
 
-function Header() {
+function Home() {
   return (
-    <div className="flex flex-col items-center min-h-screen justify-center font-serif text-purple-700">
+    <div className="flex flex-col items-center min-h-screen justify-center font-serif text-purple-600 p-6 header-bg">
       <h1 className="text-5xl font-extrabold mb-4 hover:text-purple-600 transition-colors duration-300 text-center drop-shadow-lg">
         Hello, Friend! We're Glad You're Here 
       </h1>
@@ -13,4 +13,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Home;
